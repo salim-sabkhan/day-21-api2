@@ -1,0 +1,38 @@
+body {
+    background-color:#b3b3b3;
+}
+.color {
+    background-color:#ff8000;
+   
+}
+.image {
+    width: 90%;
+    height: 400px;
+    margin: 10px 0px 10px 20px;
+}
+.disc {
+    background-image: linear-gradient(#6666cc,#476b6b);
+    color: white;
+    border-radius: 5%;
+}
+.description {
+    position: absolute;
+    left: 0;
+    bottom: 110x;
+    opacity: 0;
+}
+.disc:hover .description {
+    opacity: 1;
+    background-image: linear-gradient(#ac3973,#ffb3ff);
+    transition: opacity 0.9s ease-in-out;
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    color: aqua;
+}
